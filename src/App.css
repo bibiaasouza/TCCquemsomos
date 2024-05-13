@@ -1,0 +1,118 @@
+/* NAVBAR */
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu{
+  background-color:  #6B2E38;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+ 
+}
+
+.logo{
+  width: 200px;
+}
+
+.menu a{
+  color: #f4eeed;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+/* QUEM SOMOS */
+
+.SOMOS{
+  margin-left: 9ch ;
+}
+
+
+.historia{
+  margin: 4px 0 0;
+  padding: 92px 24px 0;
+  color: #6B2E38;
+}
+
+.historia .caixa{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-bottom: 2px solid #6B2E38;
+}
+
+.historia .caixa .coluna{
+  flex: 1 1 350px;
+  }
+
+.historia p{
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #6B2E38;
+  color: #380c13;
+}
+
+.historia p{
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.historia h3{
+  color: black;
+}
+
+.coluna{
+  position: relative;
+  position: left;
+}
+/* FOTO */
+
+.foto{
+  text-align: right;
+}
+
+/* FOOTER */
+
+.baixo{
+  margin-top: 90px;
+  background-color:  #6B2E38;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.itens{
+  padding: 16px;
+}
+
+.menu-nav{
+  list-style:none;
+  float:left;
+}
+
+.menu-nav li{
+  position:relative;
+  float:left;
+}
+
+.menu-nav li a{
+  color: rgb(255, 255, 255); 
+  text-decoration:none; 
+  padding:5px 10px; 
+  display:block;
+}
+
+
+.menu-nav li ul{
+  border:1px solid #c0c0c0;
+  display:block;
+  width:150px; 
+}
